@@ -108,9 +108,19 @@
 </div>
 
 <!-- Firebase -->
-<!-- ***********************************************************************************************************************
-     * TODO(DEVELOPER): Paste the initialization snippet from: Firebase Console > Overview > Add Firebase to your web app. *
-     *********************************************************************************************************************** -->
+
+<script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDF-mZLbc2hOhmB5dgb9yrWav8mCZ5a3tA",
+    authDomain: "msu-swe-firebase-demo.firebaseapp.com",
+    databaseURL: "https://msu-swe-firebase-demo.firebaseio.com",
+    storageBucket: "msu-swe-firebase-demo.appspot.com",
+    messagingSenderId: "785055560084"
+  };
+  firebase.initializeApp(config);
+</script>
 <script src="scripts/main.js"></script>
 </body>
 </html>
